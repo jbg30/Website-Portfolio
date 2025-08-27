@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jared's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    
+    <!-- navigation menu-->
+    <nav>
+        <div class = "nav-container"> 
+            <div class ="logo" data-aos="zoom-in" data-aos-duration="1500">
+                <span class="logo-span">Jared</span>
+            </div>
+            <div class = "links">
+                <div class = "link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"> <a href = "#home"> Home </a></div>
+                <div class = "link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"> <a href = "#about"> About </a></div>
+                <div class = "link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"> <a href = "#skills"> Skills </a></div>
+                <div class = "link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"> <a href = "#services"> Services </a></div>
+                <div class = "link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"> <a href = "#contact"> Contact </a></div>
+            </div>
+            <i class = "fa-solid fa-bars hamburg" onclick = "hamburg()"></i>
+        </div>
+        <div class = "dropdown">
+            <div class = "links">
+                <a href = "#"> Home </a>
+                <a href = "#"> About </a>
+                <a href = "#"> Skills </a>
+                <a href = "#"> Services </a>
+                <a href = "#"> Contact </a>
+                <i class = "fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class = "main-container">
+            <div class ="image" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="2000">
+                <img src ="main.jpg" alt = "" >
+            </div>
+            <div class ="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Jared</span></h1>
+                <div class = "typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class = "typewriter-text"></span><label for = "" >|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">A Computer Science and Engineering student passionate about pursing web development, UI, and UX design. Eager to apply
+                    technical skills to create user-friendly, engaging web applications. Enthusiastic about collaborating with teams to
+                    deliver innovative solutions that improve user experiences and achieve shared goals.</p>
+                <div class = "social-links">
+                    <a href="https://www.linkedin.com/in/gonzalesjared" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/jbg30" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/jbg_30/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <!--div class = "btn" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1800">
+                    <button>Hire me</button>
+                </div-->
+            </div>
+        </div>
+    </section>
+
+    <!--About Section-->
+
+    <section class = "about" id="about">
+        <div class = "content">
+            <div class = "title" data-aos="fade-up" data-aos-duration="1500"><span>About Me</span></div>
+            <div class = "about-details">
+                <div class = "left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                    <img src = "main.jpg" alt = "" />
+                </div>
+                <div class = "right">
+                    <div class = "topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">Designing Is My Passion</div>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">Design has always been a passion of mine, rooted in my love for drawing and art. From a young age, I’ve been captivated by the process of bringing ideas to life through visual creativity. Whether sketching, painting, or experimenting with digital art, I’ve always found joy in creating something that resonates with others. As I’ve grown, I’ve realized that design isn’t just about aesthetics—it’s also about solving problems and enhancing experiences. Pursuing a career in design excites me because it beautifully combines my artistic talents with my interest in coding, allowing me to create functional and visually engaging solutions.</p>
+                    <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">
+                        <a href="Resume.pdf" download="Jared_Resume.pdf">
+                            <button>Download Resume</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Skills Section-->
+
+    <section class = "skills" id="skills">
+        <div class = "content">
+            <div class = "title" data-aos="fade-up" data-aos-duration="1500"><span>My Skills</span></div>
+            <div class = "skills-details">
+                <div class = "text">
+                    <div class = "topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                        Expertise in the Virtual World
+                    </div>
+                    <p data-aos = "fade-right">As a newcomer to web development, I am focused on building a strong foundation in key technologies such as HTML5, CSS, and JavaScript. I am passionate about learning how to create clean, functional, and visually appealing websites. While I'm still growing my skills, I am dedicated to improving my understanding of web design principles, responsive layouts, and enhancing user experiences. I am also eager to explore modern development tools and frameworks to expand my capabilities as I continue my journey in web development.</p>
+                    <div class = "experience" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                        <div class = "num">3</div>
+                        <div class = "exp">
+                            Years of <br/>
+                            Experience
+                        </div>
+                    </div>
+                </div>
+                <div class = "boxes">
+                    <div class = "box">
+                        <div class = "topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">HTML</div>
+                        <div class = "per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">50%</div>
+                    </div>
+                    <div class = "box">
+                        <div class = "topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">CSS</div>
+                        <div class = "per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">25%</div>
+                    </div>
+                    <div class = "box">
+                        <div class = "topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">JavaScript</div>
+                        <div class = "per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">25%</div>
+                    </div>
+                    <div class = "box">
+                        <div class = "topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">C/C++</div>
+                        <div class = "per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">80%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--My Services Section-->
+
+    <section class = "services" id="services">
+        <div class = "content">
+            <div class = "title" data-aos="fade-up" data-aos-duration="1200"><span>My Services</span></div>
+            <div class = "boxes">
+                <div class = "box" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                    <div class = "icon">
+                        <i class = "fas fa-desktop"></i>
+                    </div>
+                    <div class = "topic">Web Development</div>
+                    <p>I am deeply interested in web development, particularly in creating websites with a strong focus on UI/UX design. My goal is to craft visually appealing and user-friendly websites that provide seamless user experiences. I enjoy the process of translating design concepts into interactive websites, ensuring that both aesthetics and functionality work harmoniously.</p>
+                </div>
+
+                <div class = "box" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                    <div class = "icon">
+                        <i class = "fas fa-paint-brush"></i>
+                    </div>
+                    <div class = "topic">Graphic Design</div>
+                    <p>With a background in creating graphics for event promotion, I developed a strong passion for visual design. I gained experience in creating eye-catching posters, social media graphics, and flyers to effectively communicate event details and engage audiences. My work focused on using color, typography, and composition to convey the right message and attract attention. As I continue to explore graphic design, I aim to refine my skills in tools such as Adobe Photoshop and Illustrator, with a focus on creating professional, impactful designs for a wide range of media.</p>
+                </div>
+
+                <div class = "box" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                    <div class = "icon">
+                        <i class = "fas fa-gamepad"></i>
+                    </div>
+                    <div class = "topic">Game Development</div>
+                    <p>Driven by my love for video games and a fascination with the technical aspects of game creation, I am excited to pursue game development in the future. I am passionate about learning how games are designed, developed, and brought to life through code, graphics, and storytelling. I am particularly interested in understanding the programming, physics, and mechanics that power interactive gaming experiences. As I continue to build my technical skills, I aim to explore game engines like Unity and Unreal Engine and dive deeper into game design principles to one day create immersive, fun, and engaging games.</p>
+                </div>
+
+                    <div class = "box" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="800">
+                    <div class = "icon">
+                        <i class = "fab fa-android"></i>
+                    </div>
+                    <div class = "topic">Icon Design</div>
+                    <p>With experience in designing icons and logos using Adobe Photoshop and Canva, I have developed a keen eye for creating simple, effective, and visually appealing icons that enhance user interfaces. My goal is to create unique and memorable app and website logos that reflect the essence of a brand or product. I enjoy the challenge of distilling complex concepts into small, recognizable symbols that are both functional and aesthetically pleasing.</p>
+                </div>
+
+                <div class = "box" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1000">
+                    <div class = "icon">
+                        <i class = "fas fa-chart-line"></i>
+                    </div>
+                    <div class = "topic">Digital Marketing</div>
+                    <p>With a strong interest in technology, design, and user engagement, I am eager to delve into the world of digital marketing. Many of my passions, from web development to graphic design, align with the core aspects of digital marketing, such as content creation, social media strategies, and brand promotion. I am excited to explore how data-driven marketing strategies, SEO, and social media can be leveraged to connect with audiences and grow brands.</p>
+                </div>
+
+                <div class = "box" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1200">
+                    <div class = "icon">
+                        <i class = "fas fa-tablet-alt"></i>
+                    </div>
+                    <div class = "topic">Apps Development</div>
+                    <p>I am eager to explore app development, with a particular interest in creating applications for games and projects that align with my passions. Whether it’s developing mobile games or other app ideas, my goal is to gain hands-on experience and grow as a developer. I aim to build my skills in app design, user experience, and coding while working on real-world projects that challenge my creativity and technical abilities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Me Section-->
+
+    <section class = "contact" id = "contact">
+        <div class = "content">
+            <div class = "title" data-aos="fade-up" data-aos-duration="1500">
+                <span>Contact Me</span>
+            </div>
+            <div class = "text">
+                <div class = "topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Have Any Projects?</div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore debitis ea voluptatem nihil rerum odit harum esse quos! Molestiae unde, fugit temporibus magni esse repellat facere ipsum assumenda repudiandae non?</p>
+                <div class = "button" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
+                    <button>Let's Chat</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer Section-->
+
+    <footer>
+        <div class = "text">
+            <span>Created By
+                <a href = "#">jbg_30</a>
+                &#169; 2025 All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
